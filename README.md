@@ -16,6 +16,13 @@ django-admin startproject <project_name> .
 django-admin startapp <app_name>
 ```
 
+### Cập nhật database
+
+```
+python3 manage.py makemigrations <app-name>
+python3 manage.py migrate
+```
+
 ### Tạo super user
 
 ```
